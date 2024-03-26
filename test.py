@@ -8,16 +8,15 @@ def main():
     color = 0
     clock = pygame.time.Clock()
 
-    x = 200
-    y = 50
-    v = 15
+    circle_x = 200
+    circle_y = 50
 
     run = True
     while run:
         clock.tick(20)
 
         surface.fill(pygame.Color(color, color, color))
-        pygame.draw.circle(surface, pygame.Color(255, 255, 255), (x, y), 12)
+        pygame.draw.circle(surface, pygame.Color(255, 255, 255), (circle_x, circle_y), 12)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -25,16 +24,17 @@ def main():
 
         keys = pygame.key.get_pressed()
         if keys[pygame.K_RIGHT]:
-            x += v
+            circle_x += 15
         if keys[pygame.K_LEFT]:
-            x -= v
+            circle_x -= 15
 
-        if x > 400:
-            x = 1
-        if x < 0:
-            x = 399
+        if circle_x > 400:
+            circle_x = 0
+        elif circle_x < 0:
+            circle_x = 400
 
         pygame.display.flip()
+
     pygame.quit()
 
 
