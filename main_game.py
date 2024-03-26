@@ -10,5 +10,9 @@ def run() -> None:
 
 
 if __name__ == "__main__":
+<<<<<<< Updated upstream
     print("hello world");
     run()
+=======
+    print("hello world")
+>>>>>>> Stashed changes
