@@ -1,4 +1,5 @@
 import pygame
+import circle_class
 
 
 def main() -> None:
@@ -14,10 +15,7 @@ def main() -> None:
     clock = pygame.time.Clock()
 
     # stuff about the circle
-    circle_x = 200
-    circle_y = 50
-    circle_r = 12
-    circle_v = 1
+    circle = circle_class.Circle(200, 50, 12, 1)
 
     # run loop
     run = True
@@ -28,19 +26,19 @@ def main() -> None:
 
         # draw background and circle
         surface.fill(pygame.Color(background_color_r, background_color_g, background_color_b))
-        pygame.draw.circle(surface, pygame.Color(255, 255, 255), (circle_x, circle_y), circle_r)
+        pygame.draw.circle(surface, pygame.Color(255, 255, 255), (circle.x(), circle.y()), circle.radius())
 
         # check for events
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
 
-        # key controls 
+        # key controls
         keys = pygame.key.get_pressed()
-        if keys[pygame.K_RIGHT] and circle_x < window_width - circle_r:
-            circle_x += circle_v
-        if keys[pygame.K_LEFT] and circle_x > circle_r:
-            circle_x -= circle_v
+        if keys[pygame.K_RIGHT] and circle.x() < window_width - circle.radius():
+            circle.go_right()
+        if keys[pygame.K_LEFT] and circle.x() > circle.radius():
+            circle.go_left()
 
         # update window
         pygame.display.flip()
