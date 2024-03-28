@@ -29,7 +29,14 @@ def main() -> None:
         pygame.draw.circle(surface, pygame.Color(255, 255, 255), (circle.x(), circle.y()), circle.radius())
 
         # im gonna try making a line
-        pygame.draw.line(surface, pygame.Color(255, 255, 255), (0,200), (100,200), 10)
+        pygame.draw.line(surface, pygame.Color(255, 255, 255), (0,200), (300,200), 10)
+        # draw all necessary map lines
+
+        # now, have ball fall
+        if (circle.y() < window_height - circle.radius()):
+            if surface.get_at((circle.x(), circle.y() + circle.radius())) != pygame.Color(255, 255, 255):
+                circle.fall()
+        # if the grid dot below the ball is not a wall, call circles fall function
 
         # check for events
         for event in pygame.event.get():

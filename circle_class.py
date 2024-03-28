@@ -22,3 +22,6 @@ class Circle:
 
     def go_left(self):
         self._x -= self._velocity
+
+    def fall(self):
+        self._y += self._velocity
