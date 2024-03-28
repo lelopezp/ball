@@ -29,7 +29,7 @@ def main() -> None:
         pygame.draw.circle(surface, pygame.Color(255, 255, 255), (circle.x(), circle.y()), circle.radius())
 
         # im gonna try making a line
-        pygame.draw.line(surface, pygame.Color(255, 255, 255), (0,60), (100,60), 10)
+        pygame.draw.line(surface, pygame.Color(255, 255, 255), (0,200), (100,200), 10)
 
         # check for events
         for event in pygame.event.get():
