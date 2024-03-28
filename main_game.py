@@ -7,7 +7,7 @@ def main() -> None:
     # stuff about the window
     pygame.init()
     window_width = 400
-    window_height = 800
+    window_height = 700
     surface = pygame.display.set_mode((window_width, window_height))
     background_color_r = 0
     background_color_g = 0
