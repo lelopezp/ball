@@ -25,3 +25,6 @@ class Circle:
 
     def fall(self):
         self._y += self._velocity
+
+    def pushed(self, y):
+        self._y = y - self._radius
