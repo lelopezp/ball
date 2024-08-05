@@ -1,4 +1,4 @@
-# Ball: A passion project
+# Ball: a passion project
 An Educational and Exploratory Journey in Game Development
 
 ## Introduction
