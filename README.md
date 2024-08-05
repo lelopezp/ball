@@ -2,7 +2,8 @@
 
 ## Introduction
 Ball is the brain child of Andrew Liu and Luis Lopez. It is a vertical endless runner
-game with randomly generated map, where the user navigates a ball dwon through a maze that is constantly moving upwards and speeding up. The goal is to avoid being caught by the top edge of the screen. Our game uses the PyGame library within Python and was developed using PyCharm and GitHub. The
+game with randomly generated map, where the user navigates a ball down through a maze that is constantly moving upwards and speeding up. The goal is to avoid being caught by the top edge of the screen. 
+Our game uses the PyGame library within Python and was developed using PyCharm and GitHub. The
 goal is to get the game up and running on a webserver for the entire interet to play (possibly with
 the usage of a cloud platform like Microsoft Azure). But for now, it is intermittently being worked on
 locally and finetuned. 
