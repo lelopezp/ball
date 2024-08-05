@@ -2,15 +2,14 @@
 
 ## Introduction
 Ball is the brain child of Andrew Liu and Luis Lopez. It is meant to be a fun and challenging vertical endless runner
-game. It is running in Python with the PyGame library and was developed using PyCharm along with GitHub. The eventual
+game. It uses the PyGame library within Python and was developed using PyCharm and GitHub. The
 goal is to get the game up and running on a webserver for the entire interet to play (possibly with
 the usage of a cloud platform like Microsoft Azure). But for now, it is intermittently being worked on
 locally and finetuned. 
 
 ## Inspiration
 One day, Andrew was reminiscing on his childhood and he had a very fond memory of a mobile 
-game he played in Taiwan which was just like Ball. An endless scroller that got harder as time went
-on. Then, Luis said to him, "We could totally build that, like right now."
+game he played that involved navigating a ball through an endless vertical maze. The maze is constantly moving upwards and speeds up over time, and if the ball gets caught by the edge, it is game over. Then, Luis said to him, "We could totally build that, like right now."
 
 ## Planning and Research
 As any developer knows, the hardest part of any project is just starting. While finding the inspiration
