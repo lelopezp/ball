@@ -9,14 +9,14 @@ locally and finetuned.
 
 ## Inspiration
 One day, Andrew was reminiscing on his childhood and he had a very fond memory of a mobile 
-game he played that involved navigating a ball through an endless vertical maze. The maze is constantly moving upwards and speeds up over time, and if the ball gets caught by the edge, it is game over. Then, Luis said to him, "We could totally build that, like right now."
+game he played that involved navigating a ball through an endless vertical maze. The maze is constantly moving upwards and speeds up over time, and if the ball gets caught by the edge, it is game over. Luis said to him, "We could totally build that, like right now."
 
 ## Planning and Research
-As any developer knows, the hardest part of any project is just starting. While finding the inspiration
-to start was easy, the motivation, not so much. Learning to use GitHub was hard and setting up an
-environment that we could both use (as Windows and MacOS users) was also hard. We had to research 
+As any developer knows, the hardest part of any project is starting. While finding the inspiration
+to start was easy, the motivation, not so much. Learning to use GitHub as a beginner was not easy, and setting up an
+environment that we could both use (as Windows and MacOS users) was also challenging. We had to research 
 effective PyGame programming techniques and even look up some past material from classes (a short PyGame
-unit). Thankfully the PyGame community is large and the documentation is in depth.
+unit). Thankfully the PyGame community is large and the documentation is in depth, allowing us to familiarize ourselves quickly.
 
 ## Development Hurdles
 1. Object Collision - Finding out how objects collide, their speeds, and things of that nature is very
