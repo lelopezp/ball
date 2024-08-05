@@ -1,15 +1,15 @@
 # Creating Ball: An Educational and Exploratory Journey in Game Development
 
 ## Introduction
-Ball is the brain child of Andrew Liu and Luis Lopez. It is meant to be a fun and challenging vertical endless runner
-game. It uses the PyGame library within Python and was developed using PyCharm and GitHub. The
+Ball is the brain child of Andrew Liu and Luis Lopez. It is a vertical endless runner
+game with randomly generated map, where the user navigates a ball dwon through a maze that is constantly moving upwards and speeding up. The goal is to avoid being caught by the top edge of the screen. Our game uses the PyGame library within Python and was developed using PyCharm and GitHub. The
 goal is to get the game up and running on a webserver for the entire interet to play (possibly with
 the usage of a cloud platform like Microsoft Azure). But for now, it is intermittently being worked on
 locally and finetuned. 
 
 ## Inspiration
 One day, Andrew was reminiscing on his childhood and he had a very fond memory of a mobile 
-game he played that involved navigating a ball through an endless vertical maze. The maze is constantly moving upwards and speeds up over time, and if the ball gets caught by the edge, it is game over. Luis said to him, "We could totally build that, like right now."
+game he played that involved navigating a ball through an endless vertical map, just like Ball. Luis said to him, "We could totally build that, like right now."
 
 ## Planning and Research
 As any developer knows, the hardest part of any project is starting. While finding the inspiration
