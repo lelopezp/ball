@@ -38,8 +38,8 @@ we want to host the game online, even if for a short while (Cloud is expensive),
 play it and see our work.
 
 ## About the Authors
-We are both Computer Science students at the University of California - Irvine and 
-aspiring software developers and data scientists. With this project we hoped to have fun and learn
+Luis is a Computer Science student and Andrew is a Data Science student. They both currently attend the University of California - Irvine, and they share their 
+aspirations in becoming software developers and data scientists, as well as their love for video games. With this project we hope to have fun and learn
 some new things!
 
 
