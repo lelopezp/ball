@@ -1,4 +1,5 @@
-# Creating Ball: An Educational and Exploratory Journey in Game Development
+# Ball: A passion project
+An Educational and Exploratory Journey in Game Development
 
 ## Introduction
 Ball is the brain child of Andrew Liu and Luis Lopez. It is meant to be a fun and challenging vertical endless runner
