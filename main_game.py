@@ -79,9 +79,10 @@ def main() -> None:
             else:
                 circle.fall()
 
-        # after line passes top of screen, generate new line below
+        # after line passes top of screen, generate new, random line below
         if d_y[tracker] <= 0:
             d_y[tracker] = 600
+            d_o[tracker] = random.randint(0, window_width - 50)
             if tracker < 11:
                 tracker += 1
             else:
